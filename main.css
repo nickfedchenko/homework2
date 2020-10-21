@@ -1,0 +1,123 @@
+
+
+ *{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body
+{
+font-family:"Arial Black"; 
+}
+
+header 
+{
+	height: 65px;
+	background: #161c35;
+}
+
+.main-wrapper
+{
+	margin: 0 auto;
+	width: 1070px;
+	align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bb
+{
+	border: 1px solid red;
+}
+
+.main-menu >ul > li
+{
+
+
+    display: inline-block;
+}
+
+.main-menu >ul>li>a {
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-family: roboto;
+
+}
+
+.main-menu >ul>li>a::after 
+{
+
+content: "";
+background: red;
+height: 5px;
+width: 10px;
+position: absolute;
+top: 38px; 
+transition-duration: 0.3s;
+opacity: 0;
+
+
+
+}
+
+
+main-menu >ul>li> a:hover::after
+{	background: red;
+	width: 10px;
+	transition-duration: 0.3s;
+	opacity:1;
+}
+
+
+.main-block_left-block
+{
+width:100%;
+
+}
+
+section {
+	height: 600px;
+}
+
+.main-wrapper
+
+{
+	height: 100%;
+	
+
+}
+.main-board
+{		position:absolute;
+		z-index: 2;
+	    background: url(/Users/nikita/Desktop/project/src/bg.jpg);
+}
+
+.main-board::after 
+{
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	
+	background: white;
+	opacity:0.5;
+
+
+}
+
+h1 {
+	font-site:30px;
+}
+
+div {
+
+	font-size:15px;
+}
+
