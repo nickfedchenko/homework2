@@ -9,7 +9,7 @@ import Foundation
 
 //
 
-/*
+
 
 import Foundation
 
@@ -134,7 +134,7 @@ struct User
 
 var mark = User.init(name: <#T##String#>, age: <#T##Int#>, realName: <#T##String#>)
 
-*/
+
 
 enum action
 {   case podlil(count: Int)
